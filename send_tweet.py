@@ -1,0 +1,15 @@
+def send_tweet_with_image(image_path, message):
+    # This function would contain the logic to send a tweet with an image.
+    # For example, it could use the Twitter API to post the tweet.
+    pass
+
+
+# Write a function that checks if a number is prime
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
