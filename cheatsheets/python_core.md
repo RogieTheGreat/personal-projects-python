@@ -1,162 +1,196 @@
-# Python Core Cheatsheet 
+# 🐍 Python Core Cheatsheet (Engineering Focus)
 
-Author: Rogie Bernabe
-Purpose: Practical Python reference for automation, systems, and engineering work
+**Author:** Rogie Bernabe  
+**Purpose:** Practical Python reference for automation, systems, and engineering work  
 
-```markdown
+---
 
-## 1. Basic Program Structure
+## 🧠 1. Basic Program Structure
 
 ```python
-
 def main():
     print("Start program")
 
 # Entry point of program
-
 if __name__ == "__main__":
     main()
+```
 
-```markdown
+- Always use this structure  
+- Keeps code organised and testable  
 
-## 2. Variables and Types
+---
+
+## 🧠 2. Variables and Types
 
 ```python
-# Variable store data
+# Variables store data
 
-x = 10 # int
-y = 3.14 # float
-name = "Rogie" # string
-flag = True # boolen
+x = 10          # int
+y = 3.14        # float
+name = "Rogie"  # string
+flag = True     # boolean
 
-# check type 
+# check type
 print(type(x))
+```
 
-# List
+- Python is dynamically typed  
+- No need to declare types explicitly  
 
-```markdown
+---
 
-## 3. List
+## 🧠 3. Lists
 
 ```python
-# List = collection items
+# List = collection of items
 
-numbers = [1,2,3]
+numbers = [1, 2, 3]
 
 # add item
-
 numbers.append(4)
 
-#remove item
-
+# remove item
 numbers.remove(2)
 
-# Loop through list
-
+# loop through list
 for n in numbers:
     print(n)
+```
 
+- Used for storing multiple values  
+- Very common in data processing  
 
-# Note!!
+---
 
-# Dictionaries 
-
-```markdown
-
-## 4. Dictionaries
+## 🧠 4. Dictionaries
 
 ```python
-
 # Dictionary = key-value pairs
 
-person= {
-    "name":"Rogie",
-    "city":"Melbourne",
+person = {
+    "name": "Rogie",
+    "city": "Melbourne",
     "age": 25
 }
 
-# Access value
+# access value
 print(person["name"])
 
-# Loop through dictionary
-
+# loop through dictionary
 for key in person:
-    print(key,person[key])
+    print(key, person[key])
+```
 
-```markdown
-## 5. File Handling
+- Represents structured real-world data  
+- Similar to JSON  
+
+---
+
+## 🧠 5. File Handling
 
 ```python
 # Writing to a file
-with open("data.txt","w") as f:
-    f.write("Hello World") 
+with open("data.txt", "w") as f:
+    f.write("Hello World")
 
 # Reading from a file
-with open("data.txt","r") as f:
+with open("data.txt", "r") as f:
     content = f.read()
     print(content)
+```
 
+- `"w"` = write (overwrite)  
+- `"r"` = read  
+- `with open()` auto-closes file  
 
-```markdown
-## 6. JSON Handling
+---
+
+## 🧠 6. JSON Handling
 
 ```python
 import json
 
 data = {
-    "name":"Rogie",
-    "city":"Melbourne"
+    "name": "Rogie",
+    "city": "Melbourne"
 }
 
-# Save JSON Handling
-with open("data.json","w") as f:
-    json.dump(data,f,indent=4)
+# Save JSON
+with open("data.json", "w") as f:
+    json.dump(data, f, indent=4)
 
-
-# Load JSON Handling
-with open("data.json","r") as f:
+# Load JSON
+with open("data.json", "r") as f:
     data = json.load(f)
     print(data)
-    
+```
 
-# Exception Handling (PREVENT CRASH)
+- JSON = standard data format  
+- Used in APIs and automation systems  
 
-```markdown
+---
 
-## 7. Exception Handling
+## 🧠 7. Exception Handling
 
 ```python
+import sys
 
 try:
     x = int("abc")
 except ValueError:
-    sys.exit("Invalid Input")
+    sys.exit("Invalid input")
+```
 
+Prevents crashes  
+Essential for user input and file handling  
 
-# Pattern Template
+---
 
-```markdown
+## 🧠 8. Basic Program Pattern
 
-## 8. Basic Program Pattern
-
-```python 
-
-def load_data()
-    # load file or data soruce
+```python
+def load_data():
+    # load file or data source
     pass
 
-def process_data(data)
-    # perform calculation or filtering
+def process_data(data):
+    # perform calculations or filtering
     pass
 
-def save_output(result)
-    # save results to file
+def save_output(result):
+    # save results
     pass
 
 def main():
-        data = load_data()
-        result = process_data(data)
-        save_output(result)
+    data = load_data()
+    result = process_data(data)
+    save_output(result)
 
-if __name__ == "__main__""
+if __name__ == "__main__":
     main()
+```
+
+Standard real-world program structure  
+Used in automation and system workflows  
+
+---
+
+## Key Notes
+
+- Always separate **Markdown (text)** and **Python (code blocks)**  
+- Every code block must start and end with ```  
+- Use preview (`Ctrl + Shift + V`) to check formatting  
+
+---
+
+##  What This Is For
+
+This cheatsheet is designed to help:
+
+- Build automation tools  
+- Process engineering data  
+- Structure Python programs properly  
+- Serve as a quick reference during coding  
+
+---
