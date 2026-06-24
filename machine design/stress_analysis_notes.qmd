@@ -11,8 +11,9 @@ execute:
 jupyter: python3
 ---
 
-# Overview
 
+# Overview
+""""
 This notebook introduces the basic equations used in introductory stress analysis:
 
 - axial stress
@@ -24,6 +25,7 @@ This notebook introduces the basic equations used in introductory stress analysi
 - factor of safety
 
 The goal is to combine **engineering explanation**, **Python code**, and **results** in one study document.
+""""
 
 ## Import the reusable library
 
