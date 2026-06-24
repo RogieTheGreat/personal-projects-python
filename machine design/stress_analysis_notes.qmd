@@ -1,0 +1,48 @@
+---
+title: "Stress Analysis Basics"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+  warning: false
+  error: false
+jupyter: python3
+---
+
+# Overview
+
+This notebook introduces the basic equations used in introductory stress analysis:
+
+- axial stress
+- bending stress
+- direct shear stress
+- torsional shear stress
+- combined loading
+- von Mises stress
+- factor of safety
+
+The goal is to combine **engineering explanation**, **Python code**, and **results** in one study document.
+
+## Import the reusable library
+
+```{python}
+from stress_analysis_basic import (
+    area_circle,
+    area_annulus,
+    second_moment_circle,
+    second_moment_annulus,
+    polar_moment_circle,
+    polar_moment_annulus,
+    axial_stress,
+    bending_stress,
+    direct_shear_stress,
+    torsional_shear_stress,
+    combine_normal_stress,
+    resultant_shear_2d,
+    resultant_shear_primary_secondary,
+    von_mises_plane_stress,
+    stress_state_2d,
+    factor_of_safety_yield,
+)
