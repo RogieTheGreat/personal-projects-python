@@ -1,0 +1,26 @@
+---
+title: "test"
+author: "Rogie"
+format:
+    html:
+        mainfont: "Courier New"
+        toc: true
+        toc-title: "Index"
+        toc-depth: 2
+        smooth-scroll: true
+        theme: "darkly"
+editor: visual
+jupyter: python3
+---
+
+# Test Section
+
+This is my first Quarto test.
+
+```{python echo=TRUE, include=TRUE}
+print("Hello Rogie")
+```
+
+hello helo made 
+
+## chicken baba
