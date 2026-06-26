@@ -1,0 +1,19 @@
+# Begineer guide for myself:
+
+/home/pi/Bookshelf/BeginnersGuide-5thEd-Eng_v3.pdf
+
+scp pi@raspberrypi.local:~/Bookshelf/BeginnersGuide-5thEd-Eng_v3.pdf .
+
+Start-Process .\BeginnersGuide-5thEd-Eng_v3.pdf
+
+My goal:
+
+Raspberry Pi 4
+→ TRRS composite video output
+→ VHI-0T62 / VTR harness
+→ Toyota Crown AWS210 OEM head unit
+→ visible video/image on screen
+
+VTR detected / backlight ON
+sound may work
+but screen stays black
