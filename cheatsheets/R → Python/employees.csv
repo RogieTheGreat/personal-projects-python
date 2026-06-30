@@ -1,0 +1,6 @@
+EmployeeID,Name,Department,Shift,Hours
+1001,John,Production,Day,38
+1002,Mary,Production,Night,42
+1003,Steve,Quality,Day,45
+1004,Sarah,Quality,Night,36
+1005,James,Production,Day,50
