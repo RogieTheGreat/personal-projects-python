@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
-%matplotlib inline
+# %matplotlib inline
 
 # Read the data from the file "Advertising.csv"
 filename = 'Advertising.csv'
