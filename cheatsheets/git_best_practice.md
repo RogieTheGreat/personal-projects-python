@@ -1,5 +1,7 @@
 # Git Best Practice
 
+[📑 Table of Contents](#table-of-contents)
+
 > Personal Git notes for learning, documenting, and improving my coding workflow.
 >
 > Main goal:
@@ -70,6 +72,7 @@ A good Git history is like a project diary.
 
 If I come back after 6 months, I should understand what happened by reading the commit messages.
 
+[⬆ Back to Table of Contents](#table-of-contents)
 ---
 
 # 2. My Git Philosophy
