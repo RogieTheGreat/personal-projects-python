@@ -25,7 +25,8 @@
 > git push
 > ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # Table of Contents
 
@@ -51,7 +52,8 @@
 - [20. Quick Reference](#20-quick-reference)
 - [21. Notes To Future Me](#21-notes-to-future-me)
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 1. Why Git Matters
 
@@ -73,7 +75,8 @@ A good Git history is like a project diary.
 If I come back after 6 months, I should understand what happened by reading the commit messages.
 
 [⬆ Back to Table of Contents](#table-of-contents)
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 2. My Git Philosophy
 
@@ -101,7 +104,10 @@ final
 
 Future Me should not have to guess what I was doing.
 
----
+
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 3. Beginner Workflow
 
@@ -157,7 +163,9 @@ working now
 
 This makes the project history hard to understand.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 4. Recommended Level 2 Workflow
 
@@ -202,7 +210,9 @@ This is better because I:
 - write a meaningful commit message
 - push only after I understand what I committed
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 5. Command-by-Command Explanation
 
@@ -242,7 +252,9 @@ Do I recognise all of them?
 Should all of them be committed?
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## git diff --stat
 
@@ -269,7 +281,9 @@ Is this one logical change?
 Or did I mix multiple ideas?
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## git diff
 
@@ -283,7 +297,9 @@ This shows the actual line-by-line changes.
 
 Useful before staging.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## git add <file>
 
@@ -307,7 +323,9 @@ git add notes/git_best_practice.md
 
 This helps me commit intentionally.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## git diff --staged
 
@@ -330,7 +348,9 @@ Did I accidentally include private paths?
 Did I accidentally include large files?
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## git commit -m
 
@@ -342,7 +362,9 @@ git commit -m "feat: add ABC analysis report"
 
 The message should be short but meaningful.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## git push
 
@@ -354,7 +376,9 @@ git push
 
 This uploads the commit to the remote repository.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 6. Commit Message Format
 
@@ -390,7 +414,9 @@ type: what changed
 
 Keep it simple.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 7. Commit Types
 
@@ -416,7 +442,9 @@ git commit -m "feat: calculate SKU order frequency"
 git commit -m "feat: add article-level inventory summary"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## fix
 
@@ -440,7 +468,9 @@ git commit -m "fix: resolve datetime conversion error"
 git commit -m "fix: correct project root detection"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## docs
 
@@ -464,7 +494,9 @@ git commit -m "docs: add R to Python examples"
 git commit -m "docs: document Git level 2 workflow"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## refactor
 
@@ -488,7 +520,9 @@ git commit -m "refactor: move repeated logic into function"
 git commit -m "refactor: clean dataframe formatting step"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## test
 
@@ -508,7 +542,9 @@ git commit -m "test: add missing column checks"
 git commit -m "test: verify warehouse export row counts"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## chore
 
@@ -532,7 +568,9 @@ git commit -m "chore: clean unused notebook cells"
 git commit -m "chore: update gitignore"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 8. Good vs Bad Commit Messages
 
@@ -566,7 +604,9 @@ Problem:
 
 These do not explain what changed.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Good commit messages
 
@@ -592,7 +632,9 @@ git commit -m "chore: remove temporary CSV exports"
 
 These explain the intent.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 9. One Commit = One Idea
 
@@ -633,7 +675,9 @@ One commit that includes:
 
 That is too many ideas in one commit.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 10. Common Personal Project Examples
 
@@ -667,7 +711,9 @@ git add abc_analysis.py
 git commit -m "refactor: simplify ABC aggregation pipeline"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Personal learning repo
 
@@ -692,7 +738,9 @@ git add python/pandas_examples.py
 git commit -m "feat: add pandas dataframe examples"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## RStudio to Python cheat sheet
 
@@ -710,7 +758,9 @@ git add python/r_to_python_cheatsheet.md
 git commit -m "docs: fix typo in pandas notes"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 11. Git Add Best Practice
 
@@ -724,7 +774,9 @@ This stages everything.
 
 Fast, but risky.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Better
 
@@ -740,7 +792,9 @@ git add abc_analysis.py
 
 This stages only one file.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+  [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Multiple files
 
@@ -748,7 +802,8 @@ This stages only one file.
 git add abc_analysis.py notes/git_best_practice.md
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Add a folder
 
@@ -756,7 +811,8 @@ git add abc_analysis.py notes/git_best_practice.md
 git add notes/
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Add one specific Markdown file
 
@@ -764,7 +820,8 @@ git add notes/
 git add notes/git_best_practice.md
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Add one specific Python file
 
@@ -772,7 +829,8 @@ git add notes/git_best_practice.md
 git add scripts/abc_analysis.py
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 12. Reviewing Before Commit
 
@@ -812,7 +870,8 @@ git diff --staged
 git commit -m "<type>: <description>"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 13. When To Use git add .
 
@@ -842,7 +901,8 @@ git commit -m "docs: update Git best practice notes"
 
 This is acceptable if all changed files are documentation files related to the same note.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 14. When Not To Use git add .
 
@@ -886,7 +946,8 @@ git add abc_analysis.py
 
 then commit that separately.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 15. Git Status Patterns
 
@@ -906,7 +967,8 @@ Meaning:
 
 No uncommitted changes.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Modified file
 
@@ -918,7 +980,8 @@ Meaning:
 
 Tracked file changed.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Untracked file
 
@@ -932,7 +995,8 @@ Git sees a new file but is not tracking it yet.
 
 Be careful before adding.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Staged file
 
@@ -945,7 +1009,8 @@ Meaning:
 
 This file will be included in the next commit.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 16. Git Diff Patterns
 
@@ -985,7 +1050,8 @@ git diff --name-only
 git diff --staged --name-only
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 17. Safe Commit Checklist
 
@@ -1003,7 +1069,8 @@ Before every commit, check:
 
 If yes, commit.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 18. Suggested Daily Workflow
 
@@ -1015,7 +1082,8 @@ git status
 
 Check if the working tree is clean.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## After making changes
 
@@ -1026,7 +1094,8 @@ git diff --stat
 
 Understand what changed.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Stage one file
 
@@ -1040,7 +1109,8 @@ Example:
 git add scripts/abc_analysis.py
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Review staged changes
 
@@ -1048,7 +1118,8 @@ git add scripts/abc_analysis.py
 git diff --staged
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Commit
 
@@ -1056,7 +1127,8 @@ git diff --staged
 git commit -m "feat: add ABC analysis report"
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Push
 
@@ -1064,7 +1136,8 @@ git commit -m "feat: add ABC analysis report"
 git push
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 19. Learning Path
 
@@ -1083,7 +1156,8 @@ Goal:
 
 Understand the basic Git cycle.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Level 2
 
@@ -1102,7 +1176,8 @@ Goal:
 
 Create cleaner commits.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Level 3
 
@@ -1118,7 +1193,8 @@ Stage only part of a file.
 
 Useful when one file contains multiple changes.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Level 4
 
@@ -1138,7 +1214,8 @@ Goal:
 
 Work on features separately.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 ## Level 5
 
@@ -1148,7 +1225,8 @@ Goal:
 
 Review changes before merging into main.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 20. Quick Reference
 
@@ -1212,7 +1290,8 @@ git log --oneline
 git log --oneline --graph --decorate
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # 21. Notes To Future Me
 
@@ -1247,7 +1326,8 @@ refactor: simplify aggregation pipeline
 
 Future Me will thank Present Me for writing clear commits.
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # My Default Workflow
 
@@ -1283,7 +1363,8 @@ git commit -m "docs: add Git best practice notes"
 git push
 ```
 
----
+ [⬆ Back to Table of Contents](#table-of-contents) 
+ ---
 
 # Final Reminder
 
